@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+
+background-color:var(--color-bg) ;}
+
+
+:root {
+  --font-family1: 'Montserrat', sans-serif;
+  --font-family2: 'Roboto', sans-serif;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --color-bg : rgba(243, 242, 243, 1);
+  --color-main : rgba(122, 50, 134, 1);
+  --color-secondary: #042c54;
+  --color-black: #0f0f0f;
+  --color-white: rgba(255, 255, 255, 1);
+}

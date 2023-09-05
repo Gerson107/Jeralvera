@@ -1,0 +1,68 @@
+{
+    "newses": [
+        {
+          "id":"1",  
+          "image":"",
+          "titulo":"Los Departamentos del Cesar y la Guajira",
+          "descripcion": "Los Departamentos del Cesar y la Guajira están esperando nuevas designaciones de Gobernadores debido a que sus Gobernadores electos fueron condenados por la rama judicial. Son Dos Departamentos con necesidades básicas insatisfechas muy altas, esperamos una mirada de consciencia por parte del Gobierno y unas designaciones coherentes bajo la honestidad e integralidad.",
+          "date":"Julio de2023",
+          "text":"Continuar leyendo..."
+        },
+
+        {
+            "id":"2",  
+            "image":"",
+            "titulo":"Reforma Tributaria - Sector minero energetico",
+            "descripcion": "Como corredor minero debemos de tener en cuenta lo siguiente: 1. Deducción de los pagos de regalías, realizados en el impuesto de renta. 2. Aplicación de la sobretasa en los excedentes en los precios del mineral.",
+            "date":"Mayo de 2023",
+            "text":"Continuar leyendo..."
+          },
+
+          {
+            "id":"3",  
+            "image":"",
+            "titulo":"Reforma Tributaria - Sector minero energetico",
+            "descripcion": "Como corredor minero debemos de tener en cuenta lo siguiente: 1. Deducción de los pagos de regalías, realizados en el impuesto de renta. 2. Aplicación de la sobretasa en los excedentes en los precios del mineral.",
+            "date": "Abril de 2023",
+            "text" : "Continuar leyendo..."
+          },
+
+          {
+            "id":"4",  
+            "image":"",
+            "titulo":"",
+            "descripcion": "",
+            "date": "",
+            "text" : ""
+          },
+
+          {
+            "id":"5",  
+            "image":"",
+            "titulo":"",
+            "descripcion": "",
+            "date": "",
+            "text" : ""
+          },
+
+          {
+            "id":"6",  
+            "image":"",
+            "titulo":"",
+            "descripcion": "",
+            "date": "",
+            "text" : ""
+          },
+
+          {
+            "id":"7",  
+            "image":"",
+            "titulo":"",
+            "descripcion": "",
+            "date": "",
+            "text" : ""
+          }
+        
+
+    ]
+}
