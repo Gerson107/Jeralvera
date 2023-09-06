@@ -10,8 +10,8 @@
 }
 .contact__form-text {
     width: 30%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    
 }
 .contact__form-text p {
     font-family: var(--font-family2);

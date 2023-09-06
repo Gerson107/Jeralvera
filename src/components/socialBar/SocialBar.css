@@ -3,10 +3,14 @@
     bottom: 20px;
     right: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     background-color: #ffffff;
-    padding: 4px 6px;
-    border-radius: 8px;
+    height: 3rem;
+    width: 11rem;
+    padding-top: 0.5rem;
+    border-radius: 3px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.635);
     z-index: 100;
   }
