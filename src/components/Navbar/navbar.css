@@ -88,12 +88,12 @@ color: rgb(255, 42, 0);
  {
     padding: 0.5rem 1.1rem;
     color:#fff;
-    background-color: #793785;
+    background-color: var(--color-main);
     font-family: var(--font-family1);
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
-    border: 1px solid;
+    border: none;
     border-radius: 3px;
     outline: none;
     cursor: pointer;
@@ -170,7 +170,7 @@ color: rgb(255, 42, 0);
     gap: 3rem;
    }  
    .gpt3__navbar-links_logo img {
-    width: 100px;    
+    width: 70px;    
     }
     
 
