@@ -23,7 +23,7 @@ const Navbar = () => {
   const [isNavFixed, setIsNavFixed] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 100) { // Ajusta el valor según tu diseño
+    if (window.scrollY >100) { // Ajusta el valor según tu diseño
       setIsNavFixed(true);
     } else {
       setIsNavFixed(false);
