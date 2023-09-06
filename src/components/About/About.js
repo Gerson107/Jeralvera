@@ -57,6 +57,28 @@ const About = () => {
       <div className="experience__main-body">
 
       <Timeline position="alternate">
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          2023
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="secondary">
+            <AssignmentTurnedInIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+          Aspirante a la Asamblea Departamental
+          </Typography>
+          <Typography>Cesar</Typography>
+        </TimelineContent>
+      </TimelineItem>
 
       <TimelineItem>
         <TimelineOppositeContent
@@ -70,7 +92,7 @@ const About = () => {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot>
-            <AssessmentIcon />
+            <AssessmentIcon color="secondary"/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -91,7 +113,7 @@ const About = () => {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="primary">
+          <TimelineDot color="secondary">
             <AssignmentTurnedInIcon />
           </TimelineDot>
           <TimelineConnector />
@@ -115,7 +137,7 @@ const About = () => {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary" variant="outlined">
-          < AssignmentTurnedInIcon color='Magenta' sx={{ color:'Magenta' }} />
+          < AssignmentTurnedInIcon color='secondary' />
           </TimelineDot>
           <TimelineConnector  />
         </TimelineSeparator>

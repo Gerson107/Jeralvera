@@ -11,7 +11,7 @@ const Compromiso = () => {
         <div className='comprom__main-prin_item'>
         <VolunteerActivismIcon sx={{ fontSize: 50, color:'var(--color-main)' }}/>
         <h3>Lucha Anticorrupción</h3>
-        <p>Continuaré mi lucha contra la corrupción, a través del control politico que permite la vigilancia y defensa de los recursos público, así como lo hice en el concejo Municipal, donde denuncié por hechos de corrupción a los miembros de la corporación.</p>
+        <p>Continuaré mi lucha contra la corrupción, a través del control politico que permite la vigilancia y defensa de los recursos públicos, así como lo hice en el concejo Municipal, donde denuncié por hechos de corrupción a los miembros de la corporación.</p>
         <a href="" ><p></p>Leer mas <ArrowForwardIcon/> </a>
 
         </div>

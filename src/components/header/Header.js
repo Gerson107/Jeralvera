@@ -9,7 +9,7 @@ const Header = () => {
     <div className='img__bg'>
     <Navbar/>
     <div className='img__text'>
-    <h1>EN LA ASAMBLEA DEPARTAMENTAL MARCA</h1>
+    <h1>A LA ASAMBLEA DEPARTAMENTAL MARCA</h1>
     <img src={Marca} alt='marca'/>
     </div>
 
