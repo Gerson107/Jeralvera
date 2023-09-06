@@ -8,11 +8,8 @@ import CardMedia from '@mui/material/CardMedia';
 import NweImg from './notici.jpg'
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
-import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import DirectionsIcon from '@mui/icons-material/Directions';
 import SocialBar from '../socialBar/SocialBar.jsx';
 //import Carousel from 'react-bootstrap/Carousel';
 
@@ -38,6 +35,7 @@ const Noticias = () => {
     <>
       <div id="news" className='news-en'>
         <h1 className='title__news'> Noticias</h1>
+        
         <Paper
           component="form"
           sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 300, backgroundColor: 'white' }}
@@ -55,6 +53,7 @@ const Noticias = () => {
           </IconButton>
           
         </Paper>
+        
         {(filteredNews.length === 0 && searchTerm) && (
         <Typography >
           No se encontraron noticias.
@@ -68,7 +67,7 @@ const Noticias = () => {
         {searchTerm === '' ? (limitedNews.map((news, index) => (
 
 
-            <CardActionArea className="newss" component="a" href="#" >
+            <CardActionArea className="newss" component="a" href={news.enlace} >
               <Card sx={{ display: 'flex' }}>
                 <CardContent sx={{ flex: 1 }}>
                   <Typography component="h2" variant="">
@@ -86,8 +85,8 @@ const Noticias = () => {
                 </CardContent>
                 <CardMedia
                   component="img"
-                  sx={{ width: 260, display: { xs: 'none', sm: 'block' } }}
-                  image={NweImg}
+                  sx={{ width: 260,  display: { xs: 'none', sm: 'block' } }}
+                  image={news.image}
                   alt=""
                 />
               </Card>

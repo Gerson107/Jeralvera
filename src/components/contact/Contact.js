@@ -1,4 +1,5 @@
-import React, { useRef } from 'react'
+import React from 'react'
+import Swal from 'sweetalert2'
 import { useFormik } from 'formik';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import './Contact.css'
@@ -26,8 +27,8 @@ const validate = values => {
 
   if (!values.message) {
     errors.message = 'Mensaje Requerido';
-  } else if (values.message.length < 200) {
-    errors.message = 'Por favor escribe mas de 200 caracteres';
+  } else if (values.message.length < 50) {
+    errors.message = 'Por favor escribe mas de 50 caracteres';
   }
 
   return errors;
@@ -45,15 +46,19 @@ const Contact = () => {
       message: ''
     },
     validate,
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
+    onSubmit: (values, { resetForm}) => {
+      Swal.fire('Gracias por escribirnos.');
+      resetForm();
+      
     },
   });
-  const seccionDestinoRef = useRef(null);
+
+  
+  
 
 
   return (
-    <div ref={seccionDestinoRef} id='contact' className='contact__form'>
+    <div  id='contact' className='contact__form'>
       <div className='contact__form-text'>
       <h2>Contactanos</h2>
       <p>Si deseas comunicarte con nosotros y ser nuestro colaborador por favor escribenos a traves de este formulario.</p>
@@ -115,7 +120,10 @@ const Contact = () => {
 </div>
       
 
-       <button type="submit">Enviar</button>
+       <button type="submit" onClick={() => { 
+
+
+       }}>Enviar</button>
      </form>
 
      </div>

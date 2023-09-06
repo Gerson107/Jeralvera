@@ -17,7 +17,7 @@ const Menu = () => (
 
 const Navbar = () => {
 
-
+  const enlaceExterno = 'https://forms.gle/uyAg2xnygdbxN4x87'
   
   const [ togglrMenu, setToggleMenu ] = useState(false);
   const [isNavFixed, setIsNavFixed] = useState(false);
@@ -37,12 +37,6 @@ const Navbar = () => {
     };
   }, []);
 
-  const seccionDestinoRef = useRef(null);
-  const scrollToSeccionDestino = () => {
-    if (seccionDestinoRef.current) {
-      seccionDestinoRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <>
@@ -58,7 +52,7 @@ const Navbar = () => {
       </div>
       <div className='gpt3__navbar-sign'>
         {/* <button className='button_contr'type='button'>Contribuir</button> */}
-        <button className='button_conta' type='button'>Contribuir</button>
+        <button onClick={() => window.location.href = enlaceExterno } className='button_conta' type='button'>Contribuir</button>
 
       </div>
       <div className='gpt3__navbar-menu'>
